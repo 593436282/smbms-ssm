@@ -9,7 +9,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.smbms.ssm.entity.User;
 import com.smbms.ssm.service.UserService;
 import com.smbms.ssm.tools.SysContent;
-
+/**
+* 测试冲突
+*/
 @Controller
 @RequestMapping("/login")
 public class LoginController {
